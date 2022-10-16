@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-mergeProductionDebugResources-4:\\layout\\fragment_home.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-main-7:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-mergeProductionDebugResources-4:\\layout\\item_poster.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-main-7:\\layout\\item_poster.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-mergeProductionDebugResources-4:\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-main-7:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "com.fajar.movieapp-mergeProductionDebugResources-4:/layout/fragment_update_profile.xml",
+        "source": "com.fajar.movieapp-main-7:/layout/fragment_update_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-mergeProductionDebugResources-4:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-main-7:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.fajar.movieapp-mergeProductionDebugResources-4:/layout/fragment_detail.xml",
+        "source": "com.fajar.movieapp-main-7:/layout/fragment_detail.xml"
+    },
+    {
+        "merged": "com.fajar.movieapp-mergeProductionDebugResources-4:/layout/fragment_register.xml",
+        "source": "com.fajar.movieapp-main-7:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-mergeProductionDebugResources-4:\\layout\\item_title.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-main-7:\\layout\\item_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-mergeProductionDebugResources-4:\\layout\\fragment_register.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-main-7:\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-mergeProductionDebugResources-4:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-main-7:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-mergeProductionDebugResources-4:\\layout\\item_search_movie.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-main-7:\\layout\\item_search_movie.xml"
+    },
+    {
+        "merged": "com.fajar.movieapp-mergeProductionDebugResources-4:/layout/fragment_login.xml",
+        "source": "com.fajar.movieapp-main-7:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-mergeProductionDebugResources-4:\\layout\\fragment_update_profile.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-main-7:\\layout\\fragment_update_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-mergeProductionDebugResources-4:\\layout\\activity_home.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-main-7:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "com.fajar.movieapp-mergeProductionDebugResources-4:/layout/activity_home.xml",
+        "source": "com.fajar.movieapp-main-7:/layout/activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-mergeProductionDebugResources-4:\\layout\\fragment_detail.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-main-7:\\layout\\fragment_detail.xml"
+    }
+]

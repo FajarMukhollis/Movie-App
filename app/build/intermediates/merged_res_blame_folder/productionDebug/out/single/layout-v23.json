@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.fajar.movieapp-mergeProductionDebugResources-4:/layout-v23/fragment_detail.xml",
+        "source": "com.fajar.movieapp-main-7:/layout-v23/fragment_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-mergeProductionDebugResources-4:\\layout-v23\\fragment_detail.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\7.4\\com.fajar.movieapp-main-7:\\layout-v23\\fragment_detail.xml"
+    }
+]

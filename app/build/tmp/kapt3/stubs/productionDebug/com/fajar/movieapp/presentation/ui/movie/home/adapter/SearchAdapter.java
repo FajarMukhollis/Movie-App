@@ -1,0 +1,71 @@
+package com.fajar.movieapp.presentation.ui.movie.home.adapter;
+
+import java.lang.System;
+
+@kotlin.Metadata(mv = {1, 7, 1}, k = 1, d1 = {"\u0000F\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\b\n\u0000\n\u0002\u0010\u0002\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0002\b\u0003\n\u0002\u0010 \n\u0002\b\u0005\u0018\u0000 \u001a2\f\u0012\b\u0012\u00060\u0002R\u00020\u00000\u0001:\u0003\u001a\u001b\u001cB\u0005\u00a2\u0006\u0002\u0010\u0003J\b\u0010\f\u001a\u00020\rH\u0016J\u001c\u0010\u000e\u001a\u00020\u000f2\n\u0010\u0010\u001a\u00060\u0002R\u00020\u00002\u0006\u0010\u0011\u001a\u00020\rH\u0016J\u001c\u0010\u0012\u001a\u00060\u0002R\u00020\u00002\u0006\u0010\u0013\u001a\u00020\u00142\u0006\u0010\u0015\u001a\u00020\rH\u0016J\u0018\u0010\u0016\u001a\u00020\u000f2\u0010\u0010\u0017\u001a\f\u0012\u0006\u0012\u0004\u0018\u00010\u0006\u0018\u00010\u0018J\u000e\u0010\u0019\u001a\u00020\u000f2\u0006\u0010\n\u001a\u00020\u000bR\u0014\u0010\u0004\u001a\b\u0012\u0004\u0012\u00020\u00060\u0005X\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u001c\u0010\u0007\u001a\u0010\u0012\f\u0012\n \t*\u0004\u0018\u00010\u00060\u00060\bX\u0082\u0004\u00a2\u0006\u0002\n\u0000R\u000e\u0010\n\u001a\u00020\u000bX\u0082.\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u001d"}, d2 = {"Lcom/fajar/movieapp/presentation/ui/movie/home/adapter/SearchAdapter;", "Landroidx/recyclerview/widget/RecyclerView$Adapter;", "Lcom/fajar/movieapp/presentation/ui/movie/home/adapter/SearchAdapter$SearchViewHolder;", "()V", "diffCallback", "Landroidx/recyclerview/widget/DiffUtil$ItemCallback;", "Lcom/fajar/movieapp/data/network/model/search/SearchItem;", "differ", "Landroidx/recyclerview/widget/AsyncListDiffer;", "kotlin.jvm.PlatformType", "onItemClickCallBack", "Lcom/fajar/movieapp/presentation/ui/movie/home/adapter/SearchAdapter$OnItemClickCallBack;", "getItemCount", "", "onBindViewHolder", "", "holder", "position", "onCreateViewHolder", "parent", "Landroid/view/ViewGroup;", "viewType", "setList", "movie", "", "setOnItemClickCallback", "Companion", "OnItemClickCallBack", "SearchViewHolder", "app_productionDebug"})
+public final class SearchAdapter extends androidx.recyclerview.widget.RecyclerView.Adapter<com.fajar.movieapp.presentation.ui.movie.home.adapter.SearchAdapter.SearchViewHolder> {
+    private com.fajar.movieapp.presentation.ui.movie.home.adapter.SearchAdapter.OnItemClickCallBack onItemClickCallBack;
+    private final androidx.recyclerview.widget.DiffUtil.ItemCallback<com.fajar.movieapp.data.network.model.search.SearchItem> diffCallback = null;
+    private final androidx.recyclerview.widget.AsyncListDiffer<com.fajar.movieapp.data.network.model.search.SearchItem> differ = null;
+    @org.jetbrains.annotations.NotNull()
+    public static final com.fajar.movieapp.presentation.ui.movie.home.adapter.SearchAdapter.Companion Companion = null;
+    private static final java.lang.String IMAGE_URL = "https://image.tmdb.org/t/p/w500";
+    
+    public SearchAdapter() {
+        super();
+    }
+    
+    public final void setOnItemClickCallback(@org.jetbrains.annotations.NotNull()
+    com.fajar.movieapp.presentation.ui.movie.home.adapter.SearchAdapter.OnItemClickCallBack onItemClickCallBack) {
+    }
+    
+    public final void setList(@org.jetbrains.annotations.Nullable()
+    java.util.List<com.fajar.movieapp.data.network.model.search.SearchItem> movie) {
+    }
+    
+    @org.jetbrains.annotations.NotNull()
+    @java.lang.Override()
+    public com.fajar.movieapp.presentation.ui.movie.home.adapter.SearchAdapter.SearchViewHolder onCreateViewHolder(@org.jetbrains.annotations.NotNull()
+    android.view.ViewGroup parent, int viewType) {
+        return null;
+    }
+    
+    @java.lang.Override()
+    public void onBindViewHolder(@org.jetbrains.annotations.NotNull()
+    com.fajar.movieapp.presentation.ui.movie.home.adapter.SearchAdapter.SearchViewHolder holder, int position) {
+    }
+    
+    @java.lang.Override()
+    public int getItemCount() {
+        return 0;
+    }
+    
+    @kotlin.Metadata(mv = {1, 7, 1}, k = 1, d1 = {"\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\b\u0086\u0004\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\u000e\u0010\u0005\u001a\u00020\u00062\u0006\u0010\u0007\u001a\u00020\bR\u000e\u0010\u0002\u001a\u00020\u0003X\u0082\u0004\u00a2\u0006\u0002\n\u0000\u00a8\u0006\t"}, d2 = {"Lcom/fajar/movieapp/presentation/ui/movie/home/adapter/SearchAdapter$SearchViewHolder;", "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;", "binding", "Lcom/fajar/movieapp/databinding/ItemSearchMovieBinding;", "(Lcom/fajar/movieapp/presentation/ui/movie/home/adapter/SearchAdapter;Lcom/fajar/movieapp/databinding/ItemSearchMovieBinding;)V", "bindView", "", "item", "Lcom/fajar/movieapp/data/network/model/search/SearchItem;", "app_productionDebug"})
+    public final class SearchViewHolder extends androidx.recyclerview.widget.RecyclerView.ViewHolder {
+        private final com.fajar.movieapp.databinding.ItemSearchMovieBinding binding = null;
+        
+        public SearchViewHolder(@org.jetbrains.annotations.NotNull()
+        com.fajar.movieapp.databinding.ItemSearchMovieBinding binding) {
+            super(null);
+        }
+        
+        public final void bindView(@org.jetbrains.annotations.NotNull()
+        com.fajar.movieapp.data.network.model.search.SearchItem item) {
+        }
+    }
+    
+    @kotlin.Metadata(mv = {1, 7, 1}, k = 1, d1 = {"\u0000\u0016\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\bf\u0018\u00002\u00020\u0001J\u0010\u0010\u0002\u001a\u00020\u00032\u0006\u0010\u0004\u001a\u00020\u0005H&\u00a8\u0006\u0006"}, d2 = {"Lcom/fajar/movieapp/presentation/ui/movie/home/adapter/SearchAdapter$OnItemClickCallBack;", "", "onItemClicked", "", "data", "Lcom/fajar/movieapp/data/network/model/search/SearchItem;", "app_productionDebug"})
+    public static abstract interface OnItemClickCallBack {
+        
+        public abstract void onItemClicked(@org.jetbrains.annotations.NotNull()
+        com.fajar.movieapp.data.network.model.search.SearchItem data);
+    }
+    
+    @kotlin.Metadata(mv = {1, 7, 1}, k = 1, d1 = {"\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\u000e\n\u0000\b\u0086\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002\u00a2\u0006\u0002\u0010\u0002R\u000e\u0010\u0003\u001a\u00020\u0004X\u0082T\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u0005"}, d2 = {"Lcom/fajar/movieapp/presentation/ui/movie/home/adapter/SearchAdapter$Companion;", "", "()V", "IMAGE_URL", "", "app_productionDebug"})
+    public static final class Companion {
+        
+        private Companion() {
+            super();
+        }
+    }
+}

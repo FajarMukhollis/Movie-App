@@ -1,0 +1,189 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fajar.movieapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <queries>
+13-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:7:5-13:15
+14        <intent>
+14-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:8:9-12:18
+15            <action android:name="android.intent.action.CREATE_DOCUMENT" />
+15-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:9:13-76
+15-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:9:21-73
+16
+17            <data android:mimeType="*/*" />
+17-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:11:13-44
+17-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:11:19-41
+18        </intent>
+19    </queries>
+20
+21    <application
+21-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:7:5-38:19
+22        android:allowBackup="true"
+22-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:8:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.8.0] C:\Users\ASUS\.gradle\caches\transforms-3\208c95e1637a6d665ca9fe5dca3166bd\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+24        android:dataExtractionRules="@xml/data_extraction_rules"
+24-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:9:9-65
+25        android:debuggable="true"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:10:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:11:9-43
+28        android:label="@string/app_name"
+28-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:12:9-41
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:13:9-54
+30        android:supportsRtl="true"
+30-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:14:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.MovieApp" >
+32-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:15:9-46
+33        <activity
+33-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:17:9-23:20
+34            android:name="com.fajar.movieapp.presentation.ui.movie.HomeActivity"
+34-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:18:13-63
+35            android:exported="false" >
+35-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:19:13-37
+36            <meta-data
+36-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:20:13-22:36
+37                android:name="android.app.lib_name"
+37-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:21:17-52
+38                android:value="" />
+38-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:22:17-33
+39        </activity>
+40        <activity
+40-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:24:9-37:20
+41            android:name="com.fajar.movieapp.presentation.ui.user.MainActivity"
+41-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:25:13-62
+42            android:exported="true" >
+42-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:26:13-36
+43            <intent-filter>
+43-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:28:13-32:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:29:17-69
+44-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:29:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:31:17-77
+46-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:31:27-74
+47            </intent-filter>
+48
+49            <meta-data
+49-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:20:13-22:36
+50                android:name="android.app.lib_name"
+50-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:21:17-52
+51                android:value="" />
+51-->C:\Binar\Coba\movieapp\app\src\main\AndroidManifest.xml:22:17-33
+52        </activity>
+53        <activity
+53-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:16:9-21:52
+54            android:name="com.chuckerteam.chucker.internal.ui.MainActivity"
+54-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:17:13-76
+55            android:label="@string/chucker_name"
+55-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:18:13-49
+56            android:launchMode="singleTask"
+56-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:19:13-44
+57            android:taskAffinity="com.chuckerteam.chucker.task"
+57-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:20:13-64
+58            android:theme="@style/Chucker.Theme" />
+58-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:21:13-49
+59        <activity
+59-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:22:9-25:52
+60            android:name="com.chuckerteam.chucker.internal.ui.transaction.TransactionActivity"
+60-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:23:13-95
+61            android:parentActivityName="com.chuckerteam.chucker.internal.ui.MainActivity"
+61-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:24:13-90
+62            android:theme="@style/Chucker.Theme" />
+62-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:25:13-49
+63        <activity
+63-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:26:9-29:52
+64            android:name="com.chuckerteam.chucker.internal.ui.throwable.ThrowableActivity"
+64-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:27:13-91
+65            android:parentActivityName="com.chuckerteam.chucker.internal.ui.MainActivity"
+65-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:28:13-90
+66            android:theme="@style/Chucker.Theme" />
+66-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:29:13-49
+67
+68        <service
+68-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:31:9-33:40
+69            android:name="com.chuckerteam.chucker.internal.support.ClearDatabaseService"
+69-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:32:13-89
+70            android:exported="false" />
+70-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:33:13-37
+71
+72        <provider
+72-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:35:9-43:20
+73            android:name="com.chuckerteam.chucker.internal.support.ChuckerFileProvider"
+73-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:36:13-88
+74            android:authorities="com.fajar.movieapp.com.chuckerteam.chucker.provider"
+74-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:37:13-84
+75            android:exported="false"
+75-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:38:13-37
+76            android:grantUriPermissions="true" >
+76-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:39:13-47
+77            <meta-data
+77-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:40:13-42:66
+78                android:name="android.support.FILE_PROVIDER_PATHS"
+78-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:41:17-67
+79                android:resource="@xml/chucker_provider_paths" />
+79-->[com.github.chuckerteam.chucker:library:3.5.2] C:\Users\ASUS\.gradle\caches\transforms-3\1bfe3ac4620d34629fed5c2c28eb5deb\transformed\library-3.5.2\AndroidManifest.xml:42:17-63
+80        </provider>
+81
+82        <uses-library
+82-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\3e5e106a7064247cfe91dd9f04a0ea96\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+83            android:name="androidx.window.extensions"
+83-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\3e5e106a7064247cfe91dd9f04a0ea96\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+84            android:required="false" />
+84-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\3e5e106a7064247cfe91dd9f04a0ea96\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+85        <uses-library
+85-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\3e5e106a7064247cfe91dd9f04a0ea96\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+86            android:name="androidx.window.sidecar"
+86-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\3e5e106a7064247cfe91dd9f04a0ea96\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+87            android:required="false" />
+87-->[androidx.window:window:1.0.0] C:\Users\ASUS\.gradle\caches\transforms-3\3e5e106a7064247cfe91dd9f04a0ea96\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+88
+89        <service
+89-->[androidx.room:room-runtime:2.4.3] C:\Users\ASUS\.gradle\caches\transforms-3\04d511e9c80b7e04003e6f688e6fe051\transformed\room-runtime-2.4.3\AndroidManifest.xml:25:9-28:40
+90            android:name="androidx.room.MultiInstanceInvalidationService"
+90-->[androidx.room:room-runtime:2.4.3] C:\Users\ASUS\.gradle\caches\transforms-3\04d511e9c80b7e04003e6f688e6fe051\transformed\room-runtime-2.4.3\AndroidManifest.xml:26:13-74
+91            android:directBootAware="true"
+91-->[androidx.room:room-runtime:2.4.3] C:\Users\ASUS\.gradle\caches\transforms-3\04d511e9c80b7e04003e6f688e6fe051\transformed\room-runtime-2.4.3\AndroidManifest.xml:27:13-43
+92            android:exported="false" />
+92-->[androidx.room:room-runtime:2.4.3] C:\Users\ASUS\.gradle\caches\transforms-3\04d511e9c80b7e04003e6f688e6fe051\transformed\room-runtime-2.4.3\AndroidManifest.xml:28:13-37
+93
+94        <provider
+94-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\2c324514d5338558037698f7d74bc3e0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+95            android:name="androidx.startup.InitializationProvider"
+95-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\2c324514d5338558037698f7d74bc3e0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+96            android:authorities="com.fajar.movieapp.androidx-startup"
+96-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\2c324514d5338558037698f7d74bc3e0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+97            android:exported="false" >
+97-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\2c324514d5338558037698f7d74bc3e0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+98            <meta-data
+98-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\2c324514d5338558037698f7d74bc3e0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+99-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\2c324514d5338558037698f7d74bc3e0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+100                android:value="androidx.startup" />
+100-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ASUS\.gradle\caches\transforms-3\2c324514d5338558037698f7d74bc3e0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\96759878b18bbcd04d1209267ec9e0ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+102                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+102-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\96759878b18bbcd04d1209267ec9e0ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+103                android:value="androidx.startup" />
+103-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ASUS\.gradle\caches\transforms-3\96759878b18bbcd04d1209267ec9e0ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+104        </provider>
+105    </application>
+106
+107</manifest>
